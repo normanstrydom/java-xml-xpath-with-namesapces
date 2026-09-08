@@ -1,0 +1,7 @@
+<root xmlns="http://example.com/default" xmlns:ns="http://example.com/ns">
+  <child>value1</child>
+  <ns:child>value2</ns:child>
+  <ns:parent>
+    <ns:child attr="attrValue">value3</ns:child>
+  </ns:parent>
+</root>
